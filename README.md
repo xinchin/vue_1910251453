@@ -39,6 +39,7 @@ git push -u origin master
 
 >npm i element-ui -S
 
+
 PS D:\RD_2019\Vue_Project\vue_1910251453> npm i element-ui -S
 npm WARN ajv-keywords@3.4.1 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
 npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
