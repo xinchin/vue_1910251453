@@ -26,12 +26,28 @@
   </div>
 </template>
 <script>
+import Vue from 'vue'
+
+//  一次引入 element-ui
+// import ElementUI from 'element-ui';
+
+// 按需引入 element-ui
+import 'element-ui/lib/theme-chalk/index.css';
+import { Button, Link } from 'element-ui';
+
+Vue.use(Button)
+Vue.use(Link)
+
 export default {
   name:'DemoElementUI',
   data(){
     return {
 
     }
+  },
+  components: {
+    Button,
+    Link
   }
 }
 </script>
