@@ -28,3 +28,24 @@ git remote add origin https://github.com/xinchin/vue_1910251453.git
 
 git push -u origin master
 
+-------
+## 安裝 element-ui
+
+### Reference
+
+>https://element.eleme.io/#/zh-CN/component/installation
+
+### command
+
+>npm i element-ui -S
+
+PS D:\RD_2019\Vue_Project\vue_1910251453> npm i element-ui -S
+npm WARN ajv-keywords@3.4.1 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ element-ui@2.12.0
+added 6 packages from 6 contributors and audited 11825 packages in 11.847s
+found 10 vulnerabilities (6 moderate, 4 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+PS D:\RD_2019\Vue_Project\vue_1910251453>
