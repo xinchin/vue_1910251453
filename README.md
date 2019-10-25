@@ -101,3 +101,22 @@ PS D:\RD_2019\Vue_Project\vue_1910251453>
 
 ---------------
 
+## 安裝 vue-awesome-swiper
+
+### reference
+
+> https://github.com/surmon-china/vue-awesome-swiper
+
+### command
+> npm install vue-awesome-swiper --save
+
+### Mount
+
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
+
+
