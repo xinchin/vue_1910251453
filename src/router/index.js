@@ -3,6 +3,10 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import DemoElementUI from '@/Demo/DemoElementUI'
 import DemoSwiper from '@/Demo/DemoSwiper'
+import DemoDataShare from '@/Demo/DemoDataShare'
+import child1 from '@/Demo/DemoDataShare/child1'
+import child2 from '@/Demo/DemoDataShare/child2'
+import DemoParent from '@/Demo/DempParent'
 
 Vue.use(Router)
 
@@ -19,5 +23,20 @@ export default new Router({
     path: '/demoSwiper',
     name: 'demoSwiper',
     component: DemoSwiper
+  }, {
+    path: '/demodatashare',
+    name: 'demodatashare',
+    component: DemoDataShare,
+    children: [{
+      path: 'child1',
+      component: child1
+    }, {
+      path: 'child2',
+      component: child2
+    }]
+  }, {
+    path: '/demoParent',
+    name: 'demoParent',
+    component: DemoParent
   }]
 })
