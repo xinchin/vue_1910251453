@@ -7,6 +7,7 @@ import DemoDataShare from '@/Demo/DemoDataShare'
 import child1 from '@/Demo/DemoDataShare/child1'
 import child2 from '@/Demo/DemoDataShare/child2'
 import DemoParent from '@/Demo/DempParent'
+import DemoVuex from '@/Demo/DemoVuex'
 
 Vue.use(Router)
 
@@ -38,5 +39,9 @@ export default new Router({
     path: '/demoParent',
     name: 'demoParent',
     component: DemoParent
+  }, {
+    path: '/demovuex',
+    name: 'demovuex',
+    component: DemoVuex
   }]
 })
