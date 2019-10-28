@@ -1,12 +1,14 @@
+import { INCREMENT, DECREMENT } from '../store/mutation-types'
+
 const app = {
   state: {
     count: 1
   },
   mutations: {
-    increment(state) {
+    [INCREMENT](state) {
       state.count++;
     },
-    decrement(state) {
+    [DECREMENT](state) {
       state.count--;
     }
   },
