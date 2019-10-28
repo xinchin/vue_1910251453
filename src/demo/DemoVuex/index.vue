@@ -18,7 +18,11 @@ export default {
     }
   },
   computed:{
-    ...mapState(["count"]),
+    ...mapState({
+      count:state=>{
+        return state.app.count
+      }
+    }),
   },
   methods:{
     ...mapMutations(['increment','decrement']),
