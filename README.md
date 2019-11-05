@@ -126,4 +126,5 @@ Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
 > npm install json-server --save
 
-
+## axios
+> npm install axios --save
