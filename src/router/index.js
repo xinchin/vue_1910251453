@@ -9,6 +9,7 @@ import child2 from '@/Demo/DemoDataShare/child2'
 import DemoParent from '@/Demo/DempParent'
 import DemoVuex from '@/Demo/DemoVuex'
 import DemoAxios from '@/Demo/DemoAxios'
+import testCors from '@/Demo/DemoAxios/testCors'
 
 Vue.use(Router)
 
@@ -48,5 +49,9 @@ export default new Router({
     path: '/demoAxios',
     name: 'demoaxios',
     component: DemoAxios
+  }, {
+    path: '/demoAxios/testCors',
+    name: 'testcors',
+    component: testCors
   }]
 })
