@@ -10,6 +10,7 @@ import DemoParent from '@/Demo/DempParent'
 import DemoVuex from '@/Demo/DemoVuex'
 import DemoAxios from '@/Demo/DemoAxios'
 import testCors from '@/Demo/DemoAxios/testCors'
+import testUpload from '@/Demo/DemoAxios/testUpload'
 
 Vue.use(Router)
 
@@ -52,6 +53,10 @@ export default new Router({
   }, {
     path: '/demoAxios/testCors',
     name: 'testcors',
-    component: testCors
+    component: testCors,
+  }, {
+    path: '/demoAxios/testUpload',
+    name: 'testUpload',
+    component: testUpload
   }]
 })
